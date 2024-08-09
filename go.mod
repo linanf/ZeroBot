@@ -1,4 +1,4 @@
-module github.com/wdvxdr1123/ZeroBot
+module github.com/linanf/ZeroBot
 
 go 1.19
 
