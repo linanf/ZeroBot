@@ -260,7 +260,7 @@ func At(qq int64) MessageSegment {
 		Type: "at",
 		Data: map[string]string{
 			"qq": strconv.FormatInt(qq, 10),
-			"name": name,
+			"name": strconv.FormatInt(name, 10),,
 		},
 	}
 }
