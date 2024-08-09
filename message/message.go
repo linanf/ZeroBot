@@ -252,7 +252,7 @@ func Video(file string) MessageSegment {
 
 // At @某人
 // https://github.com/botuniverse/onebot-11/tree/master/message/segment.md#%E6%9F%90%E4%BA%BA
-func At(qq int64 nickname string) MessageSegment {
+func At(qq int64, nickname string) MessageSegment {
 	if qq == 0 {
 		return AtAll()
 	}
